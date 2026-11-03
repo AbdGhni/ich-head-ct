@@ -4,7 +4,10 @@ Binary classifier (haemorrhage vs normal) for 2D head CT slices, fine-tuned from
 
 > **Research prototype. Not a medical device. Not for clinical use.** Trained on a small public dataset only; no patient data is included in this repository.
 
-**Live demo:** _Hugging Face Space link to add_
+**Demo:** a Gradio app is in `demo/` (see Run it below). There is no hosted version yet.
+
+![examples](results/examples.png)
+![roc_curve](results/roc_curve.png)
 
 ## Results (5-fold stratified cross-validation, 200 slices)
 
